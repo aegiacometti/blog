@@ -65,9 +65,10 @@ theme = 'PaperMod'
     url = "/useful-links/"
     weight = 50
 
+
 [params.ShareButtons]
-  github = true
-  linkedin = true
+  ShareButtons = ["linkedin", "x"]
+
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
