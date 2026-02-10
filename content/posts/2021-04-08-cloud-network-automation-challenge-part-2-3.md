@@ -156,7 +156,7 @@ Check the code at [./aws\_setup/web\_api/main.py](https://gitlab.com/aegiacomet
 
 **Reminder: to delete all the created resources at AWS, run `terraform destroy -auto-approve` after each session, so we keep this free. If you forgot to do it, you will be charged by it's up time.**
 
-Next part [here](https://adriangiacometti.net/index.php/2021/04/08/cloud-network-automation-challenge-part-3-3/).
+Next part [here](/posts/2021-04-08-cloud-network-automation-challenge-part-3-3/).
 
 Thanks for reading.
 

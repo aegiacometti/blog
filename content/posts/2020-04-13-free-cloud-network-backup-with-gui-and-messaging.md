@@ -20,7 +20,7 @@ tags:
   - "slackops"
 ---
 
-Continuing with the development of my previous [post](https://adriangiacometti.net/index.php/2020/03/14/simple-network-configuration-backup/) where we made a very simple and complete solution for local network device configuration backups, including alerts via Slack or email. Now we are going to do some modifications to have a free complete GUI and messaging for Cloud Network configuration backups including the history, comments, and actionable buttons.
+Continuing with the development of my previous [post](/posts/2020-03-14-simple-network-configuration-backup/) where we made a very simple and complete solution for local network device configuration backups, including alerts via Slack or email. Now we are going to do some modifications to have a free complete GUI and messaging for Cloud Network configuration backups including the history, comments, and actionable buttons.
 
 **_In the end you will be a simple click away to a full online historic track of all the configuration changes, including comments per line of changed code._** Take a look at this short video!
 

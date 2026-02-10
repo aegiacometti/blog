@@ -7,8 +7,8 @@ categories:
 
 In my previous 2 posts I played around Linux Networking with the module **iproute2**.
 
-- [How to configure 1 Linux host with 2 NICs and 2 default gateways](https://adriangiacometti.net/index.php/2021/08/05/how-to-configure-1-linux-host-with-2-nics-and-2-default-gateways/)
-- [How to setup 2 network isolated Docker containers (front-end and back-end)](https://adriangiacometti.net/index.php/2021/08/06/how-to-set-up-2-network-insolated-docker-containers/)
+- [How to configure 1 Linux host with 2 NICs and 2 default gateways](/posts/2021-08-05-how-to-configure-1-linux-host-with-2-nics-and-2-default-gateways/)
+- [How to setup 2 network isolated Docker containers (front-end and back-end)](/posts/2021-08-06-how-to-set-up-2-network-insolated-docker-containers/)
 
 Now that pure routing is done, the next step is **iptables**, as a Firewall module.
 

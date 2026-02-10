@@ -1,0 +1,20 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+<div class="posts-list">
+  <ul style="list-style: none; padding: 0;">
+    {{- range .RegularPages }}
+    <li style="margin-bottom: 0.8rem; display: flex; align-items: center; gap: 1rem;">
+      {{- if .PublishDate }}
+      <span style="color: var(--primary); font-weight: 600; white-space: nowrap; min-width: 110px;">{{ .PublishDate.Format "2006-01-02" }}</span>
+      {{- end }}
+      <a href="{{ .Permalink }}" style="flex: 1;">{{ .Title }}</a>
+    </li>
+    {{- end }}
+  </ul>
+</div>
+
+{{- end }}

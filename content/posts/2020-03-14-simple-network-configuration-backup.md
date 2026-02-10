@@ -78,7 +78,7 @@ Later with only using the Linux command `diff` you can have the difference betwe
 
 Now, if you need, you could expose those files with a simple web server or shared folder setup, but please add a user/password login, you don't want the configurations to be public.
 
-### Special SSH connectivity notes
+**Special SSH connectivity notes**
 
 If normal prompt ssh connection don't work, it will not work with Ansible either. So first check the normal ssh connection from command line, and if you have problems, check these two configurations to add to your Linux.
 

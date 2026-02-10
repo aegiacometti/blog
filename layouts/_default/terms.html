@@ -1,0 +1,45 @@
+{{- define "main" }}
+
+{{- if .Title }}
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+</header>
+{{- end }}
+
+<div class="tagcloud" style="text-align: center; padding: 2rem; line-height: 1.4;">
+    {{- $type := .Type }}
+    
+    {{- $allTerms := .Data.Terms.Alphabetical }}
+    {{- $maxCount := 1 }}
+    {{- range $allTerms }}
+        {{- if gt .Count $maxCount }}
+            {{- $maxCount = .Count }}
+        {{- end }}
+    {{- end }}
+    
+    {{- range $allTerms }}
+    {{- $name := .Name }}
+    {{- $count := .Count }}
+    {{/* Calculate font size: 0.7em to 2.5em based on count */}}
+    {{- $ratio := div (float $count) (float $maxCount) }}
+    {{- $fontSize := add 0.7 (mul $ratio 1.8) }}
+    
+    {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+    <a href="{{ .Permalink }}" 
+       style="font-size: {{ $fontSize }}em; margin: 0.4rem; display: inline-block; opacity: 0.8; transition: all 0.2s ease;"
+       title="{{ $count }} post{{ if gt $count 1 }}s{{ end }}"
+       onmouseover="this.style.opacity='1'; this.style.transform='scale(1.15)';"
+       onmouseout="this.style.opacity='0.8'; this.style.transform='scale(1)';">
+        {{ .Name }}
+    </a>
+    {{- end }}
+    {{- end }}
+</div>
+
+{{- end }}
+

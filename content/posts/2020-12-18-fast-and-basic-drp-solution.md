@@ -74,6 +74,6 @@ It is not the most beautiful design that I have done, but it worked, and actuall
 - Why haven't I seen these scenarios before? I know it might sound weird, but it is completely viable as a basic case of study.
 - How far away were we from having an active-active scenario?
 
-Second part at this [l](https://adriangiacometti.net/index.php/2021/02/15/fast-and-basic-drp-solution-part-2/)[ink](https://adriangiacometti.net/index.php/2021/02/15/fast-and-basic-drp-solution-part-2/)
+Second part at this [l](/posts/2021-02-15-fast-and-basic-drp-solution-part-2/)[ink](/posts/2021-02-15-fast-and-basic-drp-solution-part-2/)
 
 Adrián.-

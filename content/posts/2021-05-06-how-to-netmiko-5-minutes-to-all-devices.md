@@ -378,7 +378,7 @@ If you need to type a command in 10 devices is could take 60 seconds, which  is
 
 But wait, we can do even better!
 
-In the next [post](https://adriangiacometti.net/index.php/2021/05/09/how-to-netmiko-full-speed-concurrency-options/), I will add multithreading and multiprocessing examples to execute the tasks concurrently and speed up things.
+In the next [post](/posts/2021-05-09-how-to-netmiko-full-speed-concurrency-options/), I will add multithreading and multiprocessing examples to execute the tasks concurrently and speed up things.
 
 There is not much else to say, just fill your _**inventory.yml**_ and start throwing commands to your whole infrastructure!
 

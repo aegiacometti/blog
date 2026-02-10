@@ -30,9 +30,9 @@ I always keep in mind one of the biggest take-aways that I had from [Networking
 
 It goes something like this (in my head): **_“Automate making my knowledge available to others who are NOT network engineers or even IT people, and if I can make that knowledge available on-demand, well.. that is a killer!”_** (huge win).
 
-On the other hand, I like to use chatbots, because I think it is the simplest way to give a face to automation, and in the end, make my knowledge available on-demand. Check this [post](https://adriangiacometti.net/index.php/2020/02/10/the-new-team-member-a-bot-chatops-part-3/).
+On the other hand, I like to use chatbots, because I think it is the simplest way to give a face to automation, and in the end, make my knowledge available on-demand. Check this [post](/posts/2020-02-10-the-new-team-member-a-bot-chatops-part-3/).
 
-As a big plus, you have collaboration and searchable message history, which I like to see as a kind of knowledge base. Check this [post](https://adriangiacometti.net/index.php/2020/01/19/chatops-a-new-way-of-delivering-1st-part-2/).
+As a big plus, you have collaboration and searchable message history, which I like to see as a kind of knowledge base. Check this [post](/posts/2020-01-19-chatops-a-new-way-of-delivering-1st-part-2/).
 
 You don’t need a huge platform, contracts, tech guys, customizations, web servers, databases, screens, GUIs, etc. It’s just on VM with free software all around, and a secure chat to interact with others or bots in this case.
 
@@ -40,7 +40,7 @@ So, let’s go back to the main topic and solve this for good, in an automated w
 
 Luckily the infrastructure was already standard on Cisco devices, traditional ASAs, and some Firepower managed by an FMC.
 
-Since we were already doing network automation integrated with Slack chatbots (check this [post](https://adriangiacometti.net/index.php/2020/02/21/keep-it-simple-with-automation-bots/) with the architecture), this was relatively easy to accomplish: just develop a new chatbot command. It took me a couple of days to capture 80% of the infrastructure with Ansible, and some extra time to work with a public API to the FMC (thanks to [daxm](https://github.com/daxm) for the [fmcapi](https://github.com/daxm/fmcapi)).
+Since we were already doing network automation integrated with Slack chatbots (check this [post](/posts/2020-02-21-keep-it-simple-with-automation-bots/) with the architecture), this was relatively easy to accomplish: just develop a new chatbot command. It took me a couple of days to capture 80% of the infrastructure with Ansible, and some extra time to work with a public API to the FMC (thanks to [daxm](https://github.com/daxm) for the [fmcapi](https://github.com/daxm/fmcapi)).
 
 In the end, any network or security support can block an IP in literally 2 minutes in the whole infrastructure (almost 30 firewalls). And, since it’s a Slack chatbot, he can do it anytime from anywhere with just a cell phone.
 

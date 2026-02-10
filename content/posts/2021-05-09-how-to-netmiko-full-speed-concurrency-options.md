@@ -9,7 +9,7 @@ tags:
   - "python"
 ---
 
-In the previous [post](https://adriangiacometti.net/index.php/2021/05/06/how-to-netmiko-5-minutes-to-all-devices/), we tried Netmiko from: the most basic command to one device, to the whole inventory, and as a bonus filtering devices to stay in a loop to keep throwing command, very useful for troubleshooting scenarios.
+In the previous [post](/posts/2021-05-06-how-to-netmiko-5-minutes-to-all-devices/), we tried Netmiko from: the most basic command to one device, to the whole inventory, and as a bonus filtering devices to stay in a loop to keep throwing command, very useful for troubleshooting scenarios.
 
 The timing was already good in comparison to doing it completely manually. Between 6 and 10 seconds per device (in my lab), against long typing minutes.
 
