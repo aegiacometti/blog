@@ -24,8 +24,6 @@ theme = 'PaperMod'
 
   [params.homeInfoParams]
     Title = "An automation journey"
-    ImageUrl = "images/Adrian.jpg"
-    ImageSize = "120px"
     
   # Copyright footer
   Copyright = "© 2026 Adrian Giacometti"
@@ -48,7 +46,7 @@ theme = 'PaperMod'
 
   [[menu.main]]
     identifier = "posts"
-    name = "Posts"
+    Content = "Automation Bots - Explorando NetDevOps, SecDevOps y automatización de infraestructura"
     url = "/posts/"
     weight = 20
 

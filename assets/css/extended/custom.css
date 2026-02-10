@@ -1,10 +1,60 @@
+/* Homepage Banner - CSS Background Approach */
+.first-entry {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 320px;
+    background-color: var(--entry);
+    background-image: url('/images/calafate.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    /* Add a dark overlay to make text readable */
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+    color: #fff !important;
+}
+
+/* Ensure text is readable */
+.first-entry .entry-header h1 {
+    color: #fff !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.first-entry .entry-content {
+    color: #f0f0f0 !important;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Hide the default social icons container background if needed */
+.first-entry .entry-footer {
+    padding-top: 1.5rem;
+}
+
+.first-entry .social-icons a {
+    color: #fff !important;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.first-entry .social-icons a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: #fff;
+}
+
+/* --- General Site Styles --- */
+
 /* Increase content width */
 :root {
     --main-width: 960px;
     --gap: 24px;
 }
 
-/* General body improvements */
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 1.6;
@@ -25,12 +75,10 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-/* Dark mode adjustments for cards */
 .dark .post-entry:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* Footer improvements */
 .footer {
     display: flex;
     justify-content: center;
@@ -39,29 +87,15 @@ body {
     text-align: center;
 }
 
-/* Header profile image */
-.profile img {
-    border-radius: 50%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.profile img:hover {
-    transform: scale(1.05);
-}
-
-/* Menu items */
 .header .menu li a {
     font-weight: 500;
 }
 
-/* Accent color tweaks (optional) */
-a {
-    color: var(--primary);
-}
-
-/* Make headings pop a bit more */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 600;
-    letter-spacing: -0.02em;
 }
