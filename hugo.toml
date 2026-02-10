@@ -34,6 +34,9 @@ theme = 'PaperMod'
     name = "linkedin"
     url = "https://linkedin.com/in/adriangiacometti"
 
+  ShareButtons = ["linkedin", "x"]
+
+
 [menu]
   [[menu.main]]
     identifier = "home"
@@ -64,11 +67,6 @@ theme = 'PaperMod'
     name = "Useful Links"
     url = "/useful-links/"
     weight = 50
-
-
-[params.ShareButtons]
-  ShareButtons = ["linkedin", "x"]
-
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
