@@ -1,0 +1,67 @@
+baseURL = 'https://adriangiacometti.net/'
+languageCode = 'es-es'
+title = 'Adrian Giacometti'
+theme = 'PaperMod'
+
+[params]
+  description = "An automation journey - Automation Bots"
+  author = "Adrian Giacometti"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
+
+  [params.homeInfoParams]
+    Title = "An automation journey"
+    Content = "Automation Bots - Explorando NetDevOps, SecDevOps y automatización de infraestructura"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/aegiacometti"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/adriangiacometti"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 40
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
