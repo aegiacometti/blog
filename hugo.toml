@@ -65,16 +65,9 @@ theme = 'PaperMod'
     url = "/useful-links/"
     weight = 40
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About Me"
-    url = "/about/"
-    weight = 50
-
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
 [taxonomies]
   tag = "tags"
   category = "categories"
-
