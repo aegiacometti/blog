@@ -34,9 +34,6 @@ theme = 'PaperMod'
     name = "linkedin"
     url = "https://linkedin.com/in/adriangiacometti"
 
-  ShareButtons = ["linkedin", "x"]
-
-
 [menu]
   [[menu.main]]
     identifier = "home"
