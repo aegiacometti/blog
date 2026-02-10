@@ -35,7 +35,7 @@ theme = 'PaperMod'
 
   [[params.socialIcons]]
     name = "linkedin"
-    url = "https://linkedin.com/in/adriangiacometti"
+    url = "https://www.linkedin.com/in/adrian-giacometti/"
 
 [menu]
   [[menu.main]]

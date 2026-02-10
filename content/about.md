@@ -2,9 +2,10 @@
 title: "About Me"
 date: 2026-02-10
 draft: false
+showtoc: false
 ---
 
-I'm Adrian Giacometti, a professional passionate about infrastructure automation and network operations.
+I'm a professional passionate about infrastructure automation and network operations.
 
 ## My Focus
 
@@ -27,5 +28,5 @@ I primarily work with:
 
 ---
 
-*This site is built with Hugo and hosted on GitHub Pages.*
+*This site is built with Hugo and hosted on Cloudflare Pages.*
 

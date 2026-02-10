@@ -4,54 +4,72 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 320px;
+    align-items: center;
+    /* Center horizontally */
+    text-align: center;
+    /* Center text */
+    min-height: 40vh;
+    /* Responsive height */
     background-color: var(--entry);
     background-image: url('/images/calafate.jpg');
     background-size: cover;
+    /* Adapt to screen while covering */
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
-    /* Add a dark overlay to make text readable */
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+    /* Lighter overlay - Remove grayness */
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
     color: #fff !important;
+    border-radius: var(--radius);
+    margin-bottom: var(--gap);
 }
 
 /* Ensure text is readable */
 .first-entry .entry-header h1 {
     color: #fff !important;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    /* Responsive font size */
+    margin-bottom: 0.5rem;
+    padding: 0 20px;
 }
 
 .first-entry .entry-content {
-    color: #f0f0f0 !important;
-    font-size: 1.1rem;
+    color: #fff !important;
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    /* Responsive font size */
     max-width: 800px;
     margin: 0 auto;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    padding: 0 20px;
 }
 
-/* Hide the default social icons container background if needed */
-.first-entry .entry-footer {
-    padding-top: 1.5rem;
+/* Global Footer Socials */
+.footer-socials {
+    margin-top: 1.5rem;
 }
 
-.first-entry .social-icons a {
-    color: #fff !important;
-    border-color: rgba(255, 255, 255, 0.3);
+.footer-socials .social-icons {
+    justify-content: center;
 }
 
-.first-entry .social-icons a:hover {
-    background: rgba(255, 255, 255, 0.2);
-    border-color: #fff;
+.footer-socials .social-icons a {
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+}
+
+.footer-socials .social-icons a:hover {
+    transform: scale(1.1);
 }
 
 /* --- General Site Styles --- */
 
 /* Increase content width */
 :root {
-    --main-width: 960px;
+    --main-width: 1000px;
+    /* Even wider layout */
     --gap: 24px;
 }
 
@@ -72,19 +90,23 @@ body {
 
 .post-entry:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
 }
 
 .dark .post-entry:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 .footer {
     display: flex;
+    flex-direction: column;
+    /* Stack vertically for socials */
     justify-content: center;
     align-items: center;
     padding: calc(var(--gap) * 2) var(--gap);
     text-align: center;
+    border-top: 1px solid var(--border);
+    margin-top: 2rem;
 }
 
 .header .menu li a {
@@ -97,5 +119,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 600;
+    font-weight: 700;
+    letter-spacing: -0.01em;
 }
