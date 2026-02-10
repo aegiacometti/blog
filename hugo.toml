@@ -59,9 +59,20 @@ theme = 'PaperMod'
     url = "/about/"
     weight = 40
 
+  [[menu.main]]
+    identifier = "links"
+    name = "Useful Links"
+    url = "/useful-links/"
+    weight = 50
+
+[params.ShareButtons]
+  github = true
+  linkedin = true
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
 [taxonomies]
   tag = "tags"
   category = "categories"
+

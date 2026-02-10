@@ -4,20 +4,20 @@ date: 2026-02-10
 draft: false
 ---
 
-Soy Adrian Giacometti, un profesional apasionado por la automatización de infraestructura y las operaciones de red.
+I'm Adrian Giacometti, a professional passionate about infrastructure automation and network operations.
 
-## Mi Enfoque
+## My Focus
 
-Este blog documenta mi viaje en el mundo de la automatización, explorando temas como:
+This blog documents my journey in the world of automation, exploring topics such as:
 
-- **NetDevOps**: Aplicando principios DevOps a las operaciones de red
-- **SecDevOps**: Integrando seguridad en los procesos de automatización
-- **Network Automation**: Automatización de configuraciones y operaciones de red
-- **Infrastructure as Code**: Usando herramientas como Terraform y Ansible
+- **NetDevOps**: Applying DevOps principles to network operations
+- **SecDevOps**: Integrating security into automation processes
+- **Network Automation**: Automating network configurations and operations
+- **Infrastructure as Code**: Using tools like Terraform and Ansible
 
-## Tecnologías
+## Technologies
 
-Trabajo principalmente con:
+I primarily work with:
 - Python
 - Ansible
 - Terraform
@@ -27,4 +27,5 @@ Trabajo principalmente con:
 
 ---
 
-*Este sitio está construido con Hugo y hospedado en GitHub Pages.*
+*This site is built with Hugo and hosted on GitHub Pages.*
+
