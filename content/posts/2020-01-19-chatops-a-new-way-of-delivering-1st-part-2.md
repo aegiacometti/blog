@@ -123,4 +123,4 @@ The use cases are infinite as your needs and creativity could be. Just keep in m
 
 Lastly, you can use other Slack functionalities like creating dedicated support group channels, start group/channel voice calls! , predefined tasks and responses, create buttons, forms, calendars, schedules, personal notes, etc.
 
-That is all for now. [In the next post](https://adriangiacometti.net/index.php/2020/02/10/the-new-team-member-a-bot-chatops-part-3/), I will explore more interesting use cases that will save a lot of time, and honestly, there is nothing in the market to do it so easy and handy. And of course, the security aspects of this approach. Don’t worry, security is everywhere.
+That is all for now. [In the next post](/posts/2020-02-10-the-new-team-member-a-bot-chatops-part-3/), I will explore more interesting use cases that will save a lot of time, and honestly, there is nothing in the market to do it so easy and handy. And of course, the security aspects of this approach. Don’t worry, security is everywhere.

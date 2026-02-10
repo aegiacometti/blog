@@ -6,8 +6,7 @@ date: 2020-06-12
 This is a collection of my favorite links while I surf the web and learn new things:
 
   
-
-### Learning
+## Learning
 
 - \[Book\] - Network Programmability and Automation -> [https://adriangiacometti.net/index.php/2019/12/19/network-automation-starter/](https://adriangiacometti.net/index.php/2019/12/19/network-automation-starter/)
 
@@ -17,15 +16,13 @@ This is a collection of my favorite links while I surf the web and learn new thi
 
 - \[Online - paid\] - Cisco ACI Deep Dive -> [https://www.ipspace.net/Cisco\_ACI\_Deep\_Dive](https://www.ipspace.net/Cisco_ACI_Deep_Dive)
 
-### Networking
+## Networking
 
 - Brillant idea. How to build unequal routing with OSPF -> [https://stubarea51.net/2016/10/27/wisp-design-using-ospf-to-build-a-transit-fabric-over-unequal-links/](https://stubarea51.net/2016/10/27/wisp-design-using-ospf-to-build-a-transit-fabric-over-unequal-links/)
 
- 
-
 - Understanting BGP convergence -> [https://blog.ine.com/2010/11/22/understanding-bgp-convergence](https://blog.ine.com/2010/11/22/understanding-bgp-convergence)
 
-### **Coding**
+## Coding
 
 - Great first steps in Python book for network engineers ->  [https://pyneng.readthedocs.io/en/latest/](https://pyneng.readthedocs.io/en/latest/)
 
@@ -33,19 +30,13 @@ This is a collection of my favorite links while I surf the web and learn new thi
 
 - Python testing -> [https://realpython.com/python-testing/](https://realpython.com/python-testing/)
 
- 
-
 - Technics for Python testing -> [https://realpython.com/python-cli-testing/](https://realpython.com/python-cli-testing/)
-
- 
 
 - Git flow tutorial -> [https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
- 
-
 - GitHub badges -> [https://github.com/marketplace/actions/dynamic-badges](https://github.com/marketplace/actions/dynamic-badges)
 
-### Cloud
+## Cloud
 
 - \[VIDEO\] - AWS Architecture patterns for multi-region active-active (ARC213-R2) - > [https://youtu.be/3K9AzSrCmiQ](https://youtu.be/3K9AzSrCmiQ)
 
@@ -55,7 +46,7 @@ This is a collection of my favorite links while I surf the web and learn new thi
 
 - Cloud-native application for dummies -> [http://www.it20.info/2014/12/cloud-native-applications-for-dummies/](http://www.it20.info/2014/12/cloud-native-applications-for-dummies/)
 
-### Mix of magic
+## Mix of magic
 
 - How to start Docker containers on boot -> [https://mehmandarov.com/start-docker-containers-automatically/](https://mehmandarov.com/start-docker-containers-automatically/)
 
@@ -77,6 +68,6 @@ This is a collection of my favorite links while I surf the web and learn new thi
 
 - What is GitOps -> [https://www.atlassian.com/git/tutorials/gitops](https://www.atlassian.com/git/tutorials/gitops)
 
-### Other nice readings
+## Other nice readings
 
 - Manual work is a Bug -> [https://blog.ipspace.net/2018/05/worth-reading-manual-work-is-bug.html?utm\_source=ipspace.net&utm\_medium=mailing&utm\_campaign=mSDN](https://blog.ipspace.net/2018/05/worth-reading-manual-work-is-bug.html?utm_source=ipspace.net&utm_medium=mailing&utm_campaign=mSDN)

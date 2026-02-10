@@ -22,7 +22,7 @@ Find out how you can tremendously simplify IT support no matter where or when. U
 
 Continuing with this saga of posts. Now let’s dive into deep technical use cases. I will do it from a networking perspective just because it’s my main field of knowledge, but since Ansible and Salt are multiplatform, the following use cases are [multi-platform in a single playbook](https://www.ansible.com/blog/automating-multi-platform).
 
-If you want to know the history of how I got here, you can check out my previous articles here in LinkedIn or at [https://adriangiacometti.net](https://adriangiacometti.net/)
+If you want to know the history of how I got here, you can check out my previous articles here in LinkedIn or at [home](/)
 
 _Just a reminder, this is personal development in which by using Python I’m making interfaces to integrate Slack, Ansible and Salt, in a real running environment, this isn't just to talk with made-up pictures, this is the actual output of the code._
 
@@ -117,4 +117,4 @@ In the posts to come, I will show the Architecture and Security of the solution,
 
 Sharing of ideas, questions, suggestions, etc. are more than welcome.
 
-You can read these posts and get a copy by e-mail as soon as I publish them at [https://adriangiacometti.net](https://adriangiacometti.net/)
+You can read these posts and get a copy by e-mail as soon as I publish them at [home](/)

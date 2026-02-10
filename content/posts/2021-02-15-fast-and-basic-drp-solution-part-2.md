@@ -24,7 +24,7 @@ tags:
   - "vrf"
 ---
 
-In the [previous post](https://adriangiacometti.net/index.php/2020/12/18/fast-and-basic-drp-solution/), I oversimplified the situation just for an easy onboarding to the case.
+In the [previous post](/posts/2020-12-18-fast-and-basic-drp-solution/), I oversimplified the situation just for an easy onboarding to the case.
 
 Now it's time to go into deeper details.
 
@@ -61,7 +61,7 @@ My first thought was "What about LISP?". So I did some tech research, it sounded
 
 I have to give a solution that is viable, satisfies the requirements, and that the company can operate from day 1 (in that order).
 
-So in my [previous post](https://adriangiacometti.net/index.php/2020/12/18/fast-and-basic-drp-solution/) I got to this high-level design.
+So in my [previous post](/posts/2020-12-18-fast-and-basic-drp-solution/) I got to this high-level design.
 
 ![](/images/drp-1.png)
 
@@ -128,7 +128,7 @@ Look at this. It is a data model from Cisco ACI: it has several filters and it i
 
 ![](/images/post.jpg)
 
-(I used this in a [previous post](https://adriangiacometti.net/index.php/2020/09/25/aci-to-oci-with-terraform/) where with Python I extracted the data model from Cisco ACI and transformed it into Terraform in order to deploy it in Oracle OCI, in minutes!)
+(I used this in a [previous post](/posts/2020-09-25-aci-to-oci-with-terraform/) where with Python I extracted the data model from Cisco ACI and transformed it into Terraform in order to deploy it in Oracle OCI, in minutes!)
 
 And we just can't stop giving real benefits or deliverables to the real business. After all a DRP/BC is not something that will make the company earn more money, in fact, it will be expensive and it will not actually produce, it will be there just in case something very unlikely to happen actually happens.
 

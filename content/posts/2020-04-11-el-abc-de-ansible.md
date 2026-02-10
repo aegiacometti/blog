@@ -48,7 +48,7 @@ El nombre del host que aparece primero, es el nombre que va a utilizar Ansible p
 
 4. Revisa y aplica las "notas especiales de SSH" de éste [link](https://github.com/aegiacometti/netconf-backup#special-ssh-connectivity-notes). Sino la conexion SSH a los equipos remotos no te va a funcionar con los IOS tradicionales.
 
-5. En algún momento, lee sobre Ansible Vault en éste [link](https://adriangiacometti.net/index.php/2020/04/05/quick-start-ansible-vault/). Es para encriptar las passwords y no ponerlas sin protección en el inventario de Ansible. Si bien al principio no importa y es mejor enfocarse en aprender a hacer lo básico. Ahora cuando leas como encriptarlas y mantenerlas, vas a ver que es muy fácil y no lleva nada de tiempo. Ahora o después, lo vas a tener que hacer igualmente.
+5. En algún momento, lee sobre Ansible Vault en éste [link](/posts/2020-04-05-quick-start-ansible-vault/). Es para encriptar las passwords y no ponerlas sin protección en el inventario de Ansible. Si bien al principio no importa y es mejor enfocarse en aprender a hacer lo básico. Ahora cuando leas como encriptarlas y mantenerlas, vas a ver que es muy fácil y no lleva nada de tiempo. Ahora o después, lo vas a tener que hacer igualmente.
 
 6. Y finalmente, en éste [link](https://www.digitalocean.com/community/tutorials/como-instalar-y-configurar-ansible-en-ubuntu-18-04-es) tenes una guía rápida muy buena para instalar y comenzar a usar Ansible.
 

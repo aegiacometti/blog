@@ -22,7 +22,7 @@ tags:
   - "terraform"
 ---
 
-In the previous [post](https://adriangiacometti.net/index.php/2021/04/08/cloud-network-automation-challenge-part-2-3/) we set up the infrastructure at AWS and we stored the states at GitLab.
+In the previous [post](/posts/2021-04-08-cloud-network-automation-challenge-part-2-3/) we set up the infrastructure at AWS and we stored the states at GitLab.
 
 Now let's go for the most fun part, integrate everything.
 

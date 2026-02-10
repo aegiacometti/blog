@@ -19,7 +19,7 @@ To give you an idea of what you can achieve, I will show a couple of use cases t
 
 ## Automation chatbots code insights
 
-While doing integration tests of my [chatbot automation project](https://adriangiacometti.net/index.php/2020/02/21/keep-it-simple-with-automation-bots/) and going through logs manually, I found that it just didn't scale and was inefficient in time and precision.
+While doing integration tests of my [chatbot automation project](/posts/2020-02-21-keep-it-simple-with-automation-bots/) and going through logs manually, I found that it just didn't scale and was inefficient in time and precision.
 
 So, "What if I recode to logging in JSON format and read it from Elastic? I might be able to see graphically what is happening at each stage, inputs, outcomes, etc"
 

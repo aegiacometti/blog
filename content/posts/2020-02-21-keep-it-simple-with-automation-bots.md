@@ -18,7 +18,7 @@ tags:
   - "slackops"
 ---
 
-Automation Bots can help IT operations teams day-to-day work, and enhance the interaction between customers and IT members in a standard, fast, and secure way. _(Check the use cases from [my previous posts](https://adriangiacometti.net/), and new ones to come.)_
+Automation Bots can help IT operations teams day-to-day work, and enhance the interaction between customers and IT members in a standard, fast, and secure way. _(Check the use cases from [my previous posts](/), and new ones to come.)_
 
 Just keep it simple!
 
@@ -116,7 +116,7 @@ Now, for the point of view of **operability** and **maintainability** (aka suppo
 
 Just remember to keep it simple! Don’t buy a Ferrari to go for your first coffee. Don't try to build a rocket for new year’s eve fireworks (even if it sounds cool!).
 
-#### **What’s next:**
+ **What’s next:**
 
 - Develop a scheduler to prevent systems overload.
 - I will publish the code for the basic usage and a demo to play with. But I have to admit that I’m a bit shy about this not being a pro in software development. With a little of Python skill, it’s easy to add new functionalities/plugins. The code and debugging are simple. It’s just about integrating standard inputs and outputs.

@@ -91,9 +91,9 @@ So, let's get started!
 
 Requirements: accounts for AWS (we will use free tier only), GitLab and Slack (everything on the cloud), and locally your Linux PC (I'm using Virtual Box) with Terraform, AWS Cli, and Git. All is free, just remember to run Terraform destroy after each session.
 
-[Link Part 2 - AWS, Terraform, FastAPI](https://adriangiacometti.net/index.php/2021/04/08/cloud-network-automation-challenge-part-2-3/)
+[Link Part 2 - AWS, Terraform, FastAPI](/posts/2021-04-08-cloud-network-automation-challenge-part-2-3/)
 
-[Link Part 3 - GitLAB CI, Slack, Python](https://adriangiacometti.net/index.php/2021/04/08/cloud-network-automation-challenge-part-3-3/)
+[Link Part 3 - GitLAB CI, Slack, Python](/posts/2021-04-08-cloud-network-automation-challenge-part-3-3/)
 
 Conclusions
 

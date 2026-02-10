@@ -85,6 +85,6 @@ It was way more easy than expected right?
 
 I've seen other configurations using **iptables** to select the routing tables by using traffic marking. But for something this simple it doesn't make any sense to get into **iptables**.
 
-In the next post, I will extend the scenario, to [support 2 network isolated Docker containers (front-end and back-end) in 1 Linux host, with 2 NICs and 2 default gateway](https://adriangiacometti.net/index.php/2021/08/06/how-to-set-up-2-network-insolated-docker-containers/).
+In the next post, I will extend the scenario, to [support 2 network isolated Docker containers (front-end and back-end) in 1 Linux host, with 2 NICs and 2 default gateway](/posts/2021-08-06-how-to-set-up-2-network-insolated-docker-containers/).
 
 Cheers!
