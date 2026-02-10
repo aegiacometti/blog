@@ -38,51 +38,86 @@ hugo new content/posts/mi-nuevo-post.md
 El sitio estará disponible en `http://localhost:1313`
 
 ## Estructura del Proyecto
+## Deployment
+Resumen rápido:
+# Adrian Giacometti Blog
+
+Personal blog about automation, NetDevOps, and DevOps built with Hugo and the PaperMod theme.
+
+🌐 **Website**: [adriangiacometti.net](https://adriangiacometti.net)
+
+## Local Development
+
+### Prerequisites
+
+- [Hugo Extended](https://gohugo.io/installation/) v0.155.3 or later
+- Git
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/blog.git
+cd blog
+
+# Initialize submodules (theme)
+git submodule update --init --recursive
+```
+
+### Hugo Commands
+
+```bash
+# Start the development server
+hugo server -D
+
+# Build the site for production
+hugo --minify
+
+# Create a new post
+hugo new content/posts/my-new-post.md
+```
+
+The site will be available at `http://localhost:1313` when running the dev server.
+
+## Project Structure
 
 ```
 .
-├── content/          # Contenido del sitio
-│   ├── posts/       # Posts del blog
-│   └── about.md     # Página About Me
-├── static/          # Archivos estáticos
-│   ├── images/      # Imágenes
-│   └── CNAME        # Configuración de dominio
-├── themes/          # Temas de Hugo
-│   └── PaperMod/    # Tema PaperMod
+├── content/          # Site content
+│   ├── posts/        # Blog posts
+│   └── about.md      # About page
+├── static/           # Static files
+│   ├── images/       # Images
+│   └── CNAME         # Custom domain config
+├── themes/           # Hugo themes
+│   └── PaperMod/     # PaperMod theme
 ├── .github/
-│   └── workflows/   # GitHub Actions
-└── hugo.toml        # Configuración de Hugo
+│   └── workflows/    # CI workflows
+└── hugo.toml         # Hugo configuration
 ```
 
 ## Deployment
 
-El sitio se despliega automáticamente a GitHub Pages cuando se hace push a la rama `main` mediante GitHub Actions.
+The site is hosted on **Cloudflare Pages**. For full setup instructions, custom domain configuration, SSL, and automated deployments, see [CLOUDFLARE_DEPLOYMENT.md](CLOUDFLARE_DEPLOYMENT.md).
 
-### Configuración de GitHub Pages
+Quick summary:
 
-1. Ve a Settings → Pages en tu repositorio
-2. En "Build and deployment", selecciona "GitHub Actions" como source
-3. El workflow se ejecutará automáticamente en cada push
+- **Hosting platform:** Cloudflare Pages
+- **Production branch:** `main`
+- **Build command:** `hugo --minify`
+- **Output directory:** `public`
+- **Custom domain:** `adriangiacometti.net` is recorded in `static/CNAME` and DNS/SSL are managed in Cloudflare (CNAME/apex pointing to the Pages project, proxied).
+- **Automatic deployments:** Cloudflare Pages deploys on every push to `main` and creates preview builds for branches/PRs.
 
-### Configuración de Dominio Personalizado
+If you need step-by-step instructions (creating the Cloudflare project, environment variables, checks, or troubleshooting), consult the deployment guide: [CLOUDFLARE_DEPLOYMENT.md](CLOUDFLARE_DEPLOYMENT.md).
 
-El dominio `adriangiacometti.net` está configurado mediante:
+## Technologies
 
-1. **Archivo CNAME**: `static/CNAME` contiene el dominio
-2. **DNS en Cloudflare**: 
-   - 4 registros A apuntando a GitHub Pages IPs
-   - Registro CNAME para www
-   - Modo "DNS only" (nube gris)
-3. **SSL/TLS**: Configurado en Cloudflare en modo "Full"
+- **Hugo**: Static site generator
+- **PaperMod**: Fast, minimal Hugo theme
+- **Cloudflare Pages**: Hosting and CDN
+- **GitHub Actions**: (optional) CI workflows if used locally
 
-## Tecnologías
+## License
 
-- **Hugo**: Generador de sitios estáticos
-- **PaperMod**: Tema minimalista y rápido
-- **GitHub Pages**: Hosting
-- **GitHub Actions**: CI/CD
-- **Cloudflare**: DNS y SSL
-
-## Licencia
-
-Contenido © 2026 Adrian Giacometti. Todos los derechos reservados.
+Content © 2026 Adrian Giacometti. All rights reserved.
