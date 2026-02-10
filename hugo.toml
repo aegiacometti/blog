@@ -24,7 +24,12 @@ theme = 'PaperMod'
 
   [params.homeInfoParams]
     Title = "An automation journey"
-    Content = "Automation Bots - Explorando NetDevOps, SecDevOps y automatización de infraestructura"
+    ImageUrl = "images/Adrian.jpg"
+    ImageSize = "120px"
+    
+  # Copyright footer
+  Copyright = "© 2026 Adrian Giacometti"
+
 
   [[params.socialIcons]]
     name = "github"
@@ -54,15 +59,15 @@ theme = 'PaperMod'
     weight = 30
 
   [[menu.main]]
-    identifier = "about"
-    name = "About Me"
-    url = "/about/"
-    weight = 40
-
-  [[menu.main]]
     identifier = "links"
     name = "Useful Links"
     url = "/useful-links/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
     weight = 50
 
 [outputs]
