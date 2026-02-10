@@ -77,8 +77,12 @@ git push -u origin main
 | **Project name** | `adriangiacometti-blog` (or your preference) |
 | **Production branch** | `main` |
 | **Framework preset** | Hugo |
-| **Build command** | `hugo --minify` |
+| **Build command** | `hugo` |
 | **Build output directory** | `public` |
+| **Deploy command** | (leave blank) |
+
+> [!NOTE]
+> Do NOT set a Deploy command—Cloudflare Pages handles static file deployment automatically. The `wrangler deploy` command is only for Workers, not Pages.
 
 ### 3.3 Environment Variables
 

@@ -104,7 +104,7 @@ Quick summary:
 
 - **Hosting platform:** Cloudflare Pages
 - **Production branch:** `main`
-- **Build command:** `hugo --minify`
+- **Build command:** `hugo`
 - **Output directory:** `public`
 - **Custom domain:** `adriangiacometti.net` is recorded in `static/CNAME` and DNS/SSL are managed in Cloudflare (CNAME/apex pointing to the Pages project, proxied).
 - **Automatic deployments:** Cloudflare Pages deploys on every push to `main` and creates preview builds for branches/PRs.
